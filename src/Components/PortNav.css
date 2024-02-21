@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navGrandParent{
+    padding-top:  20px;
+    padding-bottom: 20px;
+}
+.navParent{
+    position: sticky;
+    width:  80%;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.navParent::before{
+    content: "";
+    position: absolute;
+    top:  0;
+    left:  0;
+    width:  100%;
+    height:  100%;
+    background-color: rgb(181, 67, 67); 
+    filter: blur(100px); 
+    z-index: -1; 
+}
+
+.navParent .portNav{
+    position: relative;
+    z-index:  1; 
+    padding:  20px;
+}
+
+.portNav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+}
+
+.navLinks{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:620px) {
+    .portNav{
+        width: 80%;  
+    }
+    .navParent{
+        width: 95%;
+    }
+  
+}

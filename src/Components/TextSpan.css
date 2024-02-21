@@ -1,0 +1,17 @@
+span{
+    display: inline-block;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width:720px) {
+    span{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:470px) {
+    span{
+        font-size: 2rem;
+    }
+}
