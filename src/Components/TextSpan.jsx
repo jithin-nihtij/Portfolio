@@ -6,6 +6,7 @@ function TextSpan({children}) {
 
   const controls = useAnimationControls()
 
+
   const rubberband = (()=>{
     controls.start({
       transform:[
@@ -28,11 +29,9 @@ function TextSpan({children}) {
   return (
     
         <motion.span 
-
+   
         animate={controls} 
-        onMouseOver={()=>rubberband()}
-        // whileHover={()=>rubberband()}
-        >
+        onMouseOver={()=>rubberband()}>
             {children}
         </motion.span>
         
@@ -40,4 +39,10 @@ function TextSpan({children}) {
   )
 }
 
-export default TextSpan
+
+
+
+
+
+
+export  default TextSpan

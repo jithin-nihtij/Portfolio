@@ -2,7 +2,9 @@ import React from 'react'
 import './Home.css'
 import image from '../Assets/Jithin.png'
 import TextSpan from './TextSpan';
-
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 
 
 function Home() {
@@ -40,7 +42,31 @@ function Home() {
       <div className='imgDiv'>
             <div className='imgFit'>
               <img src={image} alt="" />
-           
+            </div>
+            <div>
+              <ul>
+
+                <li >
+                  <a href="https://www.linkedin.com/in/jithinpjithin">
+                  <FaLinkedin />
+                  </a>
+                
+                </li>
+
+                <li>
+                  <a href="https://github.com/jithin-nihtij">
+                  <FaGithub />
+                  </a>
+                
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/jithin_nihtij/">
+                  <FaInstagramSquare />
+                  </a>
+                
+                </li>
+              </ul>
             </div>
             
       </div>

@@ -1,0 +1,10 @@
+.about{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.aboutSentence{
+    font-size: 25px;
+    font-weight: 500;
+}

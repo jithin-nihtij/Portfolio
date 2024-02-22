@@ -11,10 +11,33 @@
     margin-bottom: 50px;
     width: 40%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: center; 
     align-items: center;
-    text-align: center;
- 
+     text-align: center;
+}
+
+.imgDiv ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-top: 150px;
+    font-size: 35px;
+    color: white;
+    
+}
+
+.imgDiv ul li{
+    padding: 20px;
+}
+
+
+.imgDiv ul li a{
+    color: white;
+}
+
+.imgDiv ul li a:hover{
+   color: black;
 }
 
 .imgFit{
