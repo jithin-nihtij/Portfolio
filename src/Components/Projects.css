@@ -1,0 +1,19 @@
+.projectsParent{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    height: auto;
+}
+
+.links{
+    color: black;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1150px){
+    .projectsParent{
+        grid-template-columns: 1fr;  
+    }
+}
